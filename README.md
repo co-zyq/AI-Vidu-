@@ -7,6 +7,24 @@
 
 两个控制台共用同一套设计：上传图片、统一提示词、任务队列依次执行、单浏览器窗口常驻、完成后自动下载到本地、支持取消任务。
 
+## 界面效果
+
+上传图片支持多选（图生图 / 图生视频通用）：
+
+![多选图片上传](screenshots/multi-select.png)
+
+两个控制台都带实时任务列表：
+
+![任务列表](screenshots/task-list.png)
+
+自动化依次生成变体：
+
+![生成变体](screenshots/variants.png)
+
+任务完成后队列显示完成状态：
+
+![队列完成](screenshots/queue-completed.png)
+
 ## 环境准备
 
 需要 Python 3.12：
